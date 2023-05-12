@@ -2,12 +2,12 @@
   "name": "dagster-meltano",
   "image": "ghcr.io/quantile-development/vscode-python-base:3.8",
   "features": {
-    "ghcr.io/devcontainers-contrib/features/black:1": {},
-    "ghcr.io/devcontainers-contrib/features/isort:1": {},
-    "ghcr.io/devcontainers-contrib/features/meltano:1": {
+    "ghcr.io/devcontainers-contrib/features/black:2": {},
+    "ghcr.io/devcontainers-contrib/features/isort:2": {},
+    "ghcr.io/devcontainers-contrib/features/meltano:2": {
       "version": "2.12.0"
     },
-    "ghcr.io/devcontainers-contrib/features/poetry:1": {}
+    "ghcr.io/devcontainers-contrib/features/poetry:2": {}
   },
   "extensions": [
     "ms-python.vscode-pylance",
